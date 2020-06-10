@@ -25,9 +25,9 @@ Please note that this project is released with a [Contributor Code of Conduct](h
 ### 
 #
 ### Contributing Process
-When making contributions, please follow the steps below. For a list of open issues, please [click here](https://github.com/JohnCoene/coronavirus/issues),
+When making contributions, please follow the steps below. For a list of open issues, please [click here](https://github.com/JohnCoene/coronavirus/issues).
 
- 1. [Copy the project repository](https://github.com/JohnCoene/coronavirus/fork/) (i.e, make a copy of all of the project code)
+ 1. [Copy the project repository](https://github.com/JohnCoene/coronavirus/fork/) 
 2.  Create a new branch for your feature 
   `git checkout -b feature/MyFeature`
 3. Edit the code in your feature as you'd like
