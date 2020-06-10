@@ -19,7 +19,7 @@ Dashboard to track the spread of the coronavirus, based on three data sources, b
 
 ## Information
 
-Below is a collection of information on dat and how to embed charts. 
+Below is a collection of information on data and how to embed charts. 
 
  - If you need guidance on how to get the tracker up and running, please see the [Getting Started](GETSTARTED.md) page.
  - If you need information on the overarching goals of the project, please see the [Home](README.md) page. 
@@ -80,7 +80,7 @@ Below is a list of corrected inaccuracies pertaining to the datasets used:
 
 `v0.1.1`
 
--   There was an issue were the number of cases counted in the John Hopkins map of china and world map was wrongly filtered and gave numbers higher than actually are.
+-   There was an issue where the number of cases counted in the John Hopkins map of China and world map was wrongly filtered and gave numbers higher than actually are.
 
 `v0.0.6`
 
