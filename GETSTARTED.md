@@ -47,7 +47,7 @@ The app should deploy in a new window and display the same as the [web version](
 In order to deploy your own iteration of the tracker, you will need to create a Postgres database. If you do not have a Postgres account, you can get started with one [here](https://www.postgresql.org/) for free. 
 
 ### 4. Get a NewsAPI Token
-If you wish to incorporate news article sinto your iteration of the projectm you will need a NewsAPI token. You can get one for free [here]([newsapi.org](https://newsapi.org)).
+If you wish to incorporate news article sinto your iteration of the project, you will need a NewsAPI token. You can get one for free [here]([newsapi.org](https://newsapi.org)).
 
 ### 5. Create a Crawler Config File
 You will need to create a configuration file in order to run the crawler. *This only needs to be done once.* Run the following code to create the file:
@@ -107,4 +107,4 @@ Every time you want to update the data, re-run `crawl_coronavirus`; it collects 
 ##### 4. Visit the site at ``http://my.server.ip:3838/coronavirus``
 Note that you can change the port in the `/etc/shiny-server/shiny-server.conf` file to `80` in order to to have your app hosted at `http://my.server.ip/coronavirus`.
 #
-Please see the [information](INFO.md) section for instruction on how to refresh data and embed charts.
+Please see the [information](INFO.md) section for instructions on how to refresh data and embed charts.
