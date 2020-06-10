@@ -27,7 +27,7 @@ The code for the tracker is open source and can be deployed locally. Please see 
 Please use the links in the navigation bar immediately above this section for more information on this project, including how to contribute and getting started with your own iteration.
 ## Features
 You can visit the live tracker at [**shiny.john-coene.com/coronavirus**](https://shiny.john-coene.com/coronavirus/). The app is optimized for mobile.
-![](https://coronavirus.john-coene.com/_media/banner.png)The app features a wide array of graphs and maps to view and analyze datasets frin Johns Hopkinsm Weixin, and DXY. It also features a great deal of interactive data visualization:
+![](https://coronavirus.john-coene.com/_media/banner.png)The app features a wide array of graphs and maps to view and analyze datasets from Johns Hopkins, Weixin, and DXY. It also features a great deal of interactive data visualization:
 #### Ex. Timeline of Confirmed Cases by Province in China
 ![](https://coronavirus.john-coene.com/_media/coronavirus_time1.gif)
 #### Ex. Province and City Breakdown
