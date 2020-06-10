@@ -1,3 +1,4 @@
+
 <div align="center">
 
 <img src="./man/figures/logo.png" height="250px" />
@@ -13,32 +14,21 @@
 
 Dashboard to track the spread of the coronavirus, based on three data sources, built with [shinyMobile](https://rinterface.github.io/shinyMobile/) and [echarts4r](https://echarts4r.john-coene.com/).
 
-[Tracker](https://shiny.john-coene.com/coronavirus) | [Docs](https://coronavirus.john-coene.com) | [API](https://coronavirus.john-coene.com/#/api) | [Changelog](NEWS.md)
+[Home](README.md) | [Tracker](https://shiny.john-coene.com/coronavirus) | [Getting Started](GETSTARTED.md) | [Information](INFO.md) | [Changelog](NEWS.md) | [Contribute](CONTRIBUTE.md)
 
 </div>
 
-## Test
+## About
 
-You can test the app before preparing any kind of deployment (e.g.: set up a database), visit the [docs](https://coronavirus.john-coene.com) if you want to deploy it.
+The Coronavirus Tracker tracks data from Johns Hopkins, Weixin (WeChat), and DingXiangYuan (DXY) on the Novel Coronavirus 2019 (COVID-19). The tracker sources a database that is refreshed every hour. The code for the tracker is written in R and optimized for mobile.
 
-```r
-library(coronavirus)
+The code for the tracker is open source and can be deployed locally. Please see the [instructions](GETSTARTED.md) on how to run the API on your own machine/sever.
 
-virus <- crawl_coronavirus()
-run_app(virus)
-```
-
-![](https://coronavirus.john-coene.com/_media/banner.png)
-
-## Get it
-
-You can view the [dashboard](https://shiny.john-coene.com/coronavirus) online or download the package to run it locally or deploy it.
-
-``` r
-# install.packages("remotes")
-remotes::install_github("JohnCoene/coronavirus")
-```
-
-## Contribute
-
-Please note that this project is released with a [Contributor Code of Conduct](CODE_OF_CONDUCT.md). By contributing to this project, you agree to abide by its terms.
+Please use the links in the navigation bar immediately above this section for more information on this project, including how to contribute and getting started with your own iteration.
+## Features
+You can visit the live tracker at [**shiny.john-coene.com/coronavirus**](https://shiny.john-coene.com/coronavirus/). The app is optimized for mobile.
+![](https://coronavirus.john-coene.com/_media/banner.png)The app features a wide array of graphs and maps to view and analyze datasets frin Johns Hopkinsm Weixin, and DXY. It also features a great deal of interactive data visualization:
+#### Ex. Timeline of Confirmed Cases by Province in China
+![](https://coronavirus.john-coene.com/_media/coronavirus_time1.gif)
+#### Ex. Province and City Breakdown
+![](https://coronavirus.john-coene.com/_media/coronavirus_time2.gif)
