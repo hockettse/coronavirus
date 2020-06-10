@@ -14,7 +14,7 @@
 
 Dashboard to track the spread of the coronavirus, based on three data sources, built with [shinyMobile](https://rinterface.github.io/shinyMobile/) and [echarts4r](https://echarts4r.john-coene.com/).
 
-[Home](README.md) | [Tracker](https://shiny.john-coene.com/coronavirus) | [Getting Started](GETSTARTED.md) | [Information](INFO.md) | [Changelog](NEWS.md) | [Contribute](CONTRIBUTE.md)
+[Home](README.md) | [Tracker](https://shiny.john-coene.com/coronavirus) | [Getting Started](GETSTARTED.md) | [Information](INFORMATION.md) | [Changelog](NEWS.md) | [Contribute](CONTRIBUTE.md)
 
 </div>
 

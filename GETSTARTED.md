@@ -13,7 +13,7 @@
 
 Dashboard to track the spread of the coronavirus, based on three data sources, built with [shinyMobile](https://rinterface.github.io/shinyMobile/) and [echarts4r](https://echarts4r.john-coene.com/).
 
-[Home](README.md) | [Tracker](https://shiny.john-coene.com/coronavirus) | [Getting Started](GETSTARTED.md) | [Information](INFO.md) | [Changelog](NEWS.md) | [Contribute](CONTRIBUTE.md)
+[Home](README.md) | [Tracker](https://shiny.john-coene.com/coronavirus) | [Getting Started](GETSTARTED.md) | [Information](INFORMATION.md) | [Changelog](NEWS.md) | [Contribute](CONTRIBUTE.md)
 
 </div>
 
@@ -107,4 +107,4 @@ Every time you want to update the data, re-run `crawl_coronavirus`; it collects 
 ##### 4. Visit the site at ``http://my.server.ip:3838/coronavirus``
 Note that you can change the port in the `/etc/shiny-server/shiny-server.conf` file to `80` in order to to have your app hosted at `http://my.server.ip/coronavirus`.
 #
-Please see the [information](INFO.md) section for instructions on how to refresh data and embed charts.
+Please see the [information](INFORMATION.md) section for instructions on how to refresh data and embed charts.
